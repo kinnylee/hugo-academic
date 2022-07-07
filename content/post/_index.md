@@ -1,5 +1,5 @@
 ---
-title: Posts
+title: 技术博客
 cms_exclude: true
 
 # View.
