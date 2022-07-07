@@ -10,12 +10,20 @@ main:
   - name: 技术文章
     url: '#posts'
     weight: 20
+  - name: Kubernetes
+    parent: 技术文章
+    url: '/post/kubernetes'
+    weight: 20
   - name: 书籍
     url: '/publication'
     weight: 30
   - name: 源码分析
     url: '/post'
     weight: 40
+  - name: Kubernetes
+    parent: 源码分析
+    url: '/post/kubernetes'
+    weight: 20
   - name: 读书笔记
     url: '/note'
     weight: 50
