@@ -67,5 +67,5 @@ related:
       weight: 70
 security:
   _merge: deep
-sitemap:
-  _merge: deep
+# sitemap:
+  # _merge: deep

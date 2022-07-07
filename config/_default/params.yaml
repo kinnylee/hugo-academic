@@ -6,8 +6,11 @@
 # Appearance
 
 appearance:
+  # theme_day: minimal-custom
   theme_day: minimal
+  # theme_night: minimal-custom
   theme_night: minimal
+  # font: minimal-custom
   font: minimal
   # XS S M L XL
   font_size: L
@@ -33,10 +36,11 @@ marketing:
 header:
   navbar:
     enable: true
-    align: 1
+    # l c r
+    align: r
     show_logo: true
     show_language: false
-    show_day_night: true
+    show_day_night: false
     show_search: true
     highlight_active_link: true
 
@@ -66,6 +70,7 @@ features:
     extra_languages:
       - r
       - latex
+    theme: solarized-dark
   math:
     enable: false
   privacy_pack:
@@ -91,10 +96,10 @@ features:
       api_key: ''
       index_name: ''
       show_logo: false
-  map:
-    provider: ''
-    api_key: ''
-    zoom: 15
+  # map:
+    # provider: ''
+    # api_key: ''
+    # zoom: 15
 
 # Extensions
 
