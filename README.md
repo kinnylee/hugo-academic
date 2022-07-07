@@ -47,3 +47,8 @@ features:
   margin: 0 auto 0 auto;
   }
 ```
+## 新增 markdown 目录
+
+[参考](https://github.com/wowchemy/wowchemy-hugo-themes/discussions/2706)
+[参考2](https://wowchemy.com/docs/content/writing-markdown-latex/#table-of-contents)
+正文新增 `{{< toc hide_on="xl">}}`
