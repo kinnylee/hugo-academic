@@ -1,0 +1,4 @@
+[js.highlight_lang]
+  version = "10.2.0"
+  sri = ""  # No SRI as highlight language styles is determined at run time.
+  url = "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/%s/languages/%s.min.js"

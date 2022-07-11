@@ -22,8 +22,12 @@ main:
     weight: 40
   - name: Kubernetes
     parent: 源码分析
-    url: '/post/kubernetes'
+    url: '/course/kubernetes'
     weight: 20
+  - name: Golang
+    parent: 源码分析
+    url: '/course/Golang'
+    weight: 30
   - name: 读书笔记
     url: '/note'
     weight: 50
