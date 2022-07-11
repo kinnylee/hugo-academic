@@ -16,23 +16,22 @@ subtitle:
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-  - description: 90%
-    icon: r-project
-    icon_pack: fab
-    name: R
+  - icon: ":smile:"
+    icon_pack: "emoji"
+    name: "Kubernetes"
+    description: "100%"
   - description: 100%
     icon: chart-line
     icon_pack: fas
     name: Statistics
   - description: 10%
-    icon: camera-retro
-    icon_pack: fas
+    icon: brands/org-x
+    icon_pack: custom
     name: Photography
-# Uncomment to use emoji icons.
-#- icon: ":smile:"
-#  icon_pack: "emoji"
-#  name: "Emojiness"
-#  description: "100%"
+  - name: 云原生
+    icon_pack: "custom"
+    icon: "brands/org-gc"
+    description: 精通
 
 # Uncomment to use custom SVG icons.
 # Place your custom SVG icon in `assets/media/icons/`.
