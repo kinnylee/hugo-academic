@@ -3,6 +3,7 @@ name = "minimal-custom"
 
 [light]
   # Primary
+  # 文章字体颜色
   primary = "#1565c0"
 
   # Menu

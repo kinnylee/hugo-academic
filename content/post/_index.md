@@ -13,3 +13,10 @@ header:
   caption: ''
   image: ''
 ---
+所有 Tags：
+
+{{< list_tags >}}
+
+所有 Category：
+
+{{< list_categories >}}

@@ -32,15 +32,22 @@ authors:
   - admin
 
 tags:
-  - Academic
-  - 开源
+  - 自动扩容
+  - 源码分析
 
 categories:
   - Kubernetes
-  - 源码分析
 
 ---
 `{{< toc >}}`
+
+```go
+func (m *AwsManager) Refresh() error {
+	...
+	// 调用 forceRefresh
+	return m.forceRefresh()
+}
+```
 
 ## 一、概述
 

@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: kinnylee的博客 # Website name
-baseURL: 'https://example.com/' # Website URL
+baseURL: '' # Website URL
 
 ############################
 ## LANGUAGE
@@ -21,8 +21,9 @@ removePathAccents: true
 
 module:
   imports:
-    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms/v5
-    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy/v5
+    - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify-cms
+    - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify
+    - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5
 
 ############################
 ## ADVANCED
@@ -56,6 +57,11 @@ taxonomies:
   author: authors
 markup:
   _merge: deep
+  highlight:
+    lineNos: true
+  # tableOfContents:
+    # startLevel: 2
+    # endLevel: 3
 related:
   threshold: 80
   includeNewer: true
@@ -67,5 +73,5 @@ related:
       weight: 70
 security:
   _merge: deep
-# sitemap:
-  # _merge: deep
+sitemap:
+  _merge: deep

@@ -6,9 +6,7 @@
 # Appearance
 
 appearance:
-  # theme_day: minimal-custom
-  theme_day: minimal
-  # theme_night: minimal-custom
+  theme_day: minimal-custom
   theme_night: minimal
   # font: minimal-custom
   font: minimal
@@ -30,6 +28,7 @@ marketing:
   verification:
     google: ''
     baidu: ''
+    bing: ''
 
 # Site header
 
@@ -40,7 +39,7 @@ header:
     align: r
     show_logo: true
     show_language: false
-    show_day_night: false
+    show_day_night: true
     show_search: true
     highlight_active_link: true
 
@@ -63,14 +62,21 @@ locale:
   address_format: zh
 
 # Site features
-
 features:
   syntax_highlighter:
     enable: true
     extra_languages:
       - r
       - latex
-    theme: solarized-dark
+    # theme: solarized-dark
+#    theme: monokai
+    # theme: xcode-dark
+    theme_light: solarized-dark
+    theme_dark: solarized-dark
+    # theme: base16-snazzy
+#    theme: solarized-dark256
+    # theme: dracula
+
   math:
     enable: false
   privacy_pack:
